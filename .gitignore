@@ -1,4 +1,4 @@
-.DS_STORE
-.tar
-.zip
-.xlsx
+*.DS_STORE
+*.tar
+*.zip
+*.xlsx
