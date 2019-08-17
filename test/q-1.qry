@@ -1,0 +1,36 @@
+718:Controlling acid rain
+719: Cruise ship damage sea life
+724:  Iran Contra
+725:Low white blood cell count
+733:Airline overbooking
+734:Recycling successes
+735:Afghan women condition
+741:Artificial Intelligence
+744:Counterfeit ID punishments
+746:Outsource job India
+`0.0079`
+
+718:#AND(Controlling acid.title rain.title)
+719:#AND(#NEAR/5(Cruise ship) damage sea life)
+724:#AND(Iran Contra)
+725:#NEAR/20(Low white blood cell count)
+733:#AND(#OR(airline.title airline) #OR(overbooking.title overbooking))
+734:#NEAR/20(Recycling successes)
+735:#AND(Afghan #OR(women condition))
+741:#AND(Artificial.title Intelligence.title)
+744:#OR(#AND(Counterfeit ID) punishment.keywords)
+746:#AND(Outsource job India)
+
+`0.0338` 744:#OR(#AND(Counterfeit ID) punishment.keywords)
+`0.0374` 734:#NEAR/20(Recycling successes)
+`0.0640` 719:#AND(#NEAR/5(Cruise ship) damage sea life)
+`0.0828` 741:#AND(Artificial.title Intelligence.title)
+`0.0971` 718:#AND(Controlling acid.title rain.title)
+--------------------------------------------------------------
+`0.1031` 735:#AND(Afghan #OR(women condition))
+`0.1410` 725:#NEAR/20(Low white blood cell count)
+`0.2047` 733:#AND(#OR(airline.title airline) #OR(overbooking.title overbooking))
+`0.2322` 746:#AND(Outsource job India)
+`0.2641` 724:#AND(Iran Contra)
+`0.1260`
+

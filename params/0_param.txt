@@ -1,0 +1,15 @@
+indexPath=index-cw09
+queryFilePath=test/hw5/hw5-q.qry
+diversity:intentsFile=test/hw5/hw5-q.intents.txt
+trecEvalOutputPath=output/exp3-bm25-xquad-200-100.teIn
+retrievalAlgorithm=bm25
+diversity:algorithm=xquad
+Indri:mu=2500
+Indri:lambda=0.4
+BM25:b=0.75
+BM25:k_1=1.2
+BM25:k_3=0
+diversity=true
+diversity:maxInputRankingsLength=200
+diversity:maxResultRankingLength=100
+diversity:lambda=0.5
